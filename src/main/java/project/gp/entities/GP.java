@@ -21,6 +21,7 @@ import javax.persistence.Column;
 @Document(collection = "gp")
 public class GP {
 
+    //GP object to hold information pertaining to GP
     @Id
     private ObjectId _id;
     private String name;
